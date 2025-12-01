@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="ltr"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvChallengeStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge status: Not completed yet"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:id="@+id/tvCondition1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Jabra Bluetooth earphones: unknown" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:id="@+id/tvCondition2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Charging: unknown" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:id="@+id/tvCondition3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Location: unknown" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:id="@+id/tvCondition4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Contact 'Sarah': unknown" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:id="@+id/tvCondition5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Magic word: unknown" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <Button
+            android:id="@+id/btnSpeak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Try to guess condition 5" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <Button
+            android:id="@+id/btnCheckAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check conditions 1–5 \n in order to proceed" />
+
+    </LinearLayout>
+</ScrollView>
