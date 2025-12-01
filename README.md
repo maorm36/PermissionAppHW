@@ -130,7 +130,13 @@ The app may request the following runtime permissions (depending on Android vers
 
 ```bash
 git clone <your-repo-url>.git
+cd <your-project-folder>
+./gradlew assem
+
+---
 
 Made with ❤ by Maor Mordo
-cd <your-project-folder>
-./gradlew assembleDebug
+
+
+
+bleDebug
