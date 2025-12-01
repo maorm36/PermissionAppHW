@@ -126,17 +126,6 @@ The app may request the following runtime permissions (depending on Android vers
   - Real location (Petach Tikva)
   - Charging state
 
-### Clone & Run
-
-```bash
-git clone <your-repo-url>.git
-cd <your-project-folder>
-./gradlew assem
-
 ---
 
 Made with ❤ by Maor Mordo
-
-
-
-bleDebug
